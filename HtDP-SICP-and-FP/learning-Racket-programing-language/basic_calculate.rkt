@@ -13,7 +13,8 @@
 (expt 4 2)
 
 ;sin
-(sin pi)
+(sin pi) ;不是零，因为pi不是真正的pi，而是一个不完整的浮点数，所以(sin pi) == (sin 3.141592...),是一个
+         ;极小的小数！
 
 ;cos
 (cos pi)
